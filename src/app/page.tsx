@@ -1,6 +1,6 @@
 "use client"
 
-import { Moon, Wind, Music, BookOpen, Sparkles } from "lucide-react"
+import { Moon, Wind, Music, Coffee, Sparkles } from "lucide-react"
 import Link from "next/link"
 
 export default function Home() {
@@ -33,7 +33,7 @@ export default function Home() {
             </h1>
 
             <p className="text-xl md:text-2xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
-              Rotinas guiadas, respiração, sons relaxantes e diário do sono para você dormir mais rápido
+              Rotinas guiadas, respiração, sons relaxantes e receitas de chá para você dormir mais rápido
             </p>
           </div>
 
@@ -87,18 +87,18 @@ export default function Home() {
               </div>
             </Link>
 
-            {/* Diário do Sono */}
+            {/* Receitas de Chá */}
             <Link
-              href="/diario"
-              className="group relative bg-gradient-to-br from-indigo-600/20 to-indigo-800/20 p-8 rounded-3xl border border-indigo-500/30 hover:border-indigo-400/60 transition-all duration-300 hover:scale-105 hover:shadow-[0_0_40px_rgba(99,102,241,0.4)]"
+              href="/chas"
+              className="group relative bg-gradient-to-br from-amber-600/20 to-orange-800/20 p-8 rounded-3xl border border-amber-500/30 hover:border-amber-400/60 transition-all duration-300 hover:scale-105 hover:shadow-[0_0_40px_rgba(251,191,36,0.4)]"
             >
               <div className="flex flex-col items-center gap-4 text-center">
-                <div className="w-16 h-16 bg-indigo-500/20 rounded-2xl flex items-center justify-center">
-                  <BookOpen className="w-8 h-8 text-indigo-400" />
+                <div className="w-16 h-16 bg-amber-500/20 rounded-2xl flex items-center justify-center">
+                  <Coffee className="w-8 h-8 text-amber-400" />
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold text-white mb-2">Diário do Sono</h3>
-                  <p className="text-gray-300 text-sm">Registre e acompanhe seu sono</p>
+                  <h3 className="text-2xl font-bold text-white mb-2">Receitas de Chá</h3>
+                  <p className="text-gray-300 text-sm">Chás calmantes para relaxar</p>
                 </div>
               </div>
             </Link>
